@@ -1,0 +1,59 @@
+* {
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+h1,h2,p,h3 {
+    color:#474541;
+}
+h1 {
+   text-align: center;
+}
+.welcome {
+    text-align: center;
+}
+.parfums {
+    display: flex;
+    align-items:center;
+    justify-content:space-between;
+    flex-wrap: wrap;
+}
+.parfum {
+    display: flex;
+    align-items:center;
+    justify-content:space-between;
+    flex-direction: column;
+    background-color: #CEC8BA;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.parfum p {
+    display: flex;
+    align-items:center;
+    justify-content:space-between;
+}
+.parfum img {
+    max-height: 500px;
+}
+.about {
+    font-weight: 700;
+    text-align: center;
+}
+.characteristics {
+    text-align: center;
+    width: 300px;
+}
+.bg {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.shop,.home {
+    color:#474541;
+    position: absolute;
+    right:30px;
+    top:30px;
+    
+}
